@@ -1,0 +1,10 @@
+{% extends "layout.j2" %}
+{% block title %}404 ERROR - Not Found @{{ domain_name }}{% endblock %}
+{% block body %}
+	<h1>Oops! 404</h1>
+	<h2>¡{{ _('Not Found!') }}</h2>
+	{{ _('Sorry, I cannot found what you are looking for...') }}
+	<br/>{{ _('Please try starting from the') }} <a href="http://{{ domain_name }}/">{{ _('home page') }}</a>
+	<br/>
+	<img src="/assets/img/occhiali-ts.png">
+{% endblock %}

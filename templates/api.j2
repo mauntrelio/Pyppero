@@ -1,0 +1,13 @@
+{% extends "layout.j2" %}
+{% block body %}
+    <h2>{{_('Available APIs')}}</h2>
+    
+    <ul class="apis">
+    {% for api in apilist %}
+        <li>
+            <a href="//api.{{domain_name}}/{{ api.api }}/">{{ api.api }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

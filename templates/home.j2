@@ -1,0 +1,12 @@
+{% extends "layout.j2" %}
+{% block title %}Home Page &mdash; {{ domain_name }}{% endblock %}
+{% block body %}
+	<h1>{{ domain_name }}</h1>
+	<h2>...coming soon...</h2>
+	<a href="mailto:io@{{ domain_name }}">io@{{ domain_name }}</a>
+	<br/>
+	<img src="/assets/img/occhiali-ts.png">
+	<br/>
+	<br/>
+	<p class="small">{% trans %} This website is running on my very first Python WSGI application: Pyppero!{% endtrans %}</p>
+{% endblock %}
