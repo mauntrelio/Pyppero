@@ -105,37 +105,37 @@ class Slirpy:
   #  - provide method to get image content
   # calculate sharpness factor (slir)
 
-  def __read_config(self):
-    pass
+  # def __read_config(self):
+  #   pass
 
-  def __read_params(self):
-    pass
+  # def __read_params(self):
+  #   pass
 
-  def http_headers(self):
-    pass
+  # def http_headers(self):
+  #   pass
 
-  def get_etag(self):
-    pass
+  # def get_etag(self):
+  #   pass
 
-  def get_last_modified(self):
-    pass
+  # def get_last_modified(self):
+  #   pass
 
-  def mime_type(self):
-    pass
+  # def mime_type(self):
+  #   pass
 
-  def filesize(self):
-    pass
+  # def filesize(self):
+  #   pass
 
-  def render(self):
-    pass
+  # def render(self):
+  #   pass
 
-  def path_to_cached(self):
-    pass
+  # def path_to_cached(self):
+  #   pass
 
-  def __is_cached(self):
-    pass
+  # def __is_cached(self):
+  #   pass
 
-  def __create_cached(self):
-    pass
+  # def __create_cached(self):
+  #   pass
 
 
