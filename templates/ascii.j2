@@ -1,0 +1,16 @@
+{% extends "layout.j2" %}
+{% block body %}
+	<h1>ASCII table</h1>
+	
+	<ul class="asciitable">
+	{% for char in asciitable %}
+		<li>
+			<span class="ascii-hex">{{ char.hex }}</span>
+			<span class="ascii-dec">{{ char.dec }}</span>
+			<span class="ascii-char">{{ char.char }}</span>
+			<span class="unicode-name">{{ char.unicodename }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+
+{% endblock %}

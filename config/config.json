@@ -1,0 +1,16 @@
+{
+    "db_host": "localhost",
+    "db_port": 27017,
+    "db_name": "mauio",		
+	"domain_name": "mau.io",
+	"templates_path" : "templates",
+	"controllers_path" : "controllers",
+	"locales_path" : "locale",
+	"default_view": "404.j2",
+	"default_locale": "it_IT.UTF8",
+    "default_vars" : {
+        "domain_name" : "mau.io",
+        "locale" : "it_IT",
+        "language" : "it"
+    }
+}
